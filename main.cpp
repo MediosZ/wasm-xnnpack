@@ -41,7 +41,7 @@ void run(){
 
 int main(int argc, char const *argv[]){
     xnn_initialize(nullptr);
-    // run();
+    run();
     cout << "Hello World!" << endl;
     return 0;
 }

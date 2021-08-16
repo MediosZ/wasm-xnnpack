@@ -5,3 +5,4 @@ emcmake cmake .. \
     -DXNNPACK_LIBRARY_TYPE=static \
     -GNinja
 cmake --build .
+cp main* ../dist/
